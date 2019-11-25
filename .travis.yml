@@ -1,12 +1,23 @@
 {
+  "deploy": {
+    "provider": "heroku"
+  },
   "script": [
     "npm test"
   ],
   "node_js": [
-    "node"
+    "12.12.0"
   ],
+  "branches": {
+    "only": [
+      "master"
+    ]
+  },
   "language": "node_js",
   "notifications": {
     "email": false
-  }
+  },
+  "before_install": [
+    "npm i -g heroku-tools"
+  ]
 }
