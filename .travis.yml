@@ -16,8 +16,5 @@
   "language": "node_js",
   "notifications": {
     "email": false
-  },
-  "before_install": [
-    "npm i -g heroku-tools"
-  ]
+  },  
 }
