@@ -1,20 +1,12 @@
 {
-  "deploy": {
-    "provider": "heroku"
-  },
   "script": [
-    "npm test"
+    "npm start"
   ],
   "node_js": [
-    "12.12.0"
+    "node"
   ],
-  "branches": {
-    "only": [
-      "master"
-    ]
-  },
   "language": "node_js",
   "notifications": {
     "email": false
-  },  
+  }
 }
