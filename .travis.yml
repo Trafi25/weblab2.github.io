@@ -1,4 +1,7 @@
 {
+  "deploy": {
+    "provider": "heroku"
+  },
   "script": [
     "npm test"
   ],
