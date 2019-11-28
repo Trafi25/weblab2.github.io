@@ -2,14 +2,18 @@
   "script": [
     "npm test"
   ],
+  "script": [
+    "npm test"
+  ],
   "node_js": [
     "node"
   ],
   "language": "node_js",
   "notifications": {
-    "email": false
+    "email": [
+      {
+        "enabled": false
+      }
+    ]
   }
-  "deploy": {
-    "provider": "heroku"
-  },      
 }
