@@ -1,6 +1,6 @@
 {
   "script": [
-    "npm start"
+    "npm test"
   ],
   "node_js": [
     "node"
@@ -9,8 +9,7 @@
   "notifications": {
     "email": false
   }
-  deploy:
-  provider: heroku
-  api_key:
-    secure: "YOUR ENCRYPTED API KEY"  
+  "deploy": {
+    "provider": "heroku"
+  },      
 }
